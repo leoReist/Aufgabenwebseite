@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hausaufgaben-Kalender</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="ScriptKalender.js"></script>
+	</head>
+	
+	<body class="body" background="lol.jpg">
+	
+	<body class="body">
+		<div class="headline">
+			<h1 class="font">Hausaufgaben INF 2019I</h1>
+		</div>
+
+		<div class="navbar">
+		<ul style="font-family:Arial Black">
+		  <li><a href="index.html">Home</a></li>
+		  <li class="active"><a href="kalender.html">Kalender</a></li>
+		  <li><a href="chat.html">Chat</a></li>
+		  <li><a href="lehrerDesMonats.html">Lehrer des Monats</a></li>
+		  <li><a href="ersteller.html">Ersteller</a></li>
+		</ul>
+	</div>
+	<div class="text1">
+		<table id="kalender">
+			<thead>
+				<tr>
+					<td><button class="button" onclick="previousMonth()">&lt;</button></td>
+					<td id="month" colspan="5">November 2019</td>
+					<td><button class="button" onclick="nextMonth()">&gt;</button></td>
+				</tr>
+				<tr>
+					<th>Mo.</th>
+					<th>Di.</th>
+					<th>Mi.</th>
+					<th>Do.</th>
+					<th>So.</th>
+					<th>Fr.</th>
+					<th>Sa.</th>
+				</tr>
+			</thead>
+			<tbody>
+
+			</tbody>
+		</table>
+	</div>
+	</body>
+</html>

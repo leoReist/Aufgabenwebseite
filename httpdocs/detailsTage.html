@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hausaufgaben-Chat</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+	
+	<body class="body">
+
+	<div class="headline">
+		<h1 class="font">Hausaufgaben INF 2019I</h1>
+	</div>
+
+		<div class="navbar">
+		<ul style="font-family:Arial Black">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="kalender.html">Kalender</a></li>
+		  <li class="active"><a href="chat.html">Chat</a></li>
+		  <li><a href="lehrerDesMonats.html">Lehrer des Monats</a></li>
+		  <li><a href="ersteller.html">Ersteller</a></li>
+		</ul>
+	</div>
+	<div class="text1" style="background-color: #888">
+		<table>
+			<th>
+				<td></td>
+			</th>
+			<tr id="8oclock">
+				<td>8:00</td>
+				<td><input type="text" placeholder="Was steht dann an?" title="Type in a note"></td>
+			</tr>
+			<tr id="8oclock">
+				<td>9:00</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>10:00</td>
+				<td></td>
+			</tr>
+		</table>
+		<p>Steht an diesem Tag ein Test an?</p>
+		<select id="selectTest">			
+			<option value="Ja">Ja</option>
+			<option value="Nein">Nein</option>
+		</select>
+		<br>
+		<button onclick="saveChangesDay" style="float:right">Speichern</button>
+	</div>
+	
+	</body>
+</html>

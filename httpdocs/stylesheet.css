@@ -1,0 +1,184 @@
+.navbar {
+background-color: red;
+}
+table {
+	border-collapse: collapse;
+	font-family:Arial Black
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+.active {
+	background-color: #4CAF50;
+}
+.text1 {
+	text-align: center;
+	background-color: #999;
+	width: fit-content;
+	border-spacing: 0px;
+	font-family: Arial Black sans-serif;
+	margin: 50px auto
+}
+.font {
+	font-family: "impact"
+}
+.headline {
+	padding-left: 20px;
+	background-color:#888;
+	padding:20px;
+}
+.body {
+	margin: 0;
+}
+h1 {
+	margin:0;
+}
+li a:hover:not(.active){
+	background-color: #111;
+}
+a {
+	text-decoration: none;
+}
+
+/* Kalender */
+
+table#kalender td {
+    width: 100px;
+    height: 100px;
+	text-align: center;
+	border: 1px solid #777;
+
+}
+
+table#kalender td.day {
+	cursor: pointer;
+	border: none;
+	background-color: #888;
+	border: 1px solid #777;
+
+}
+
+table#kalender td.day:hover {
+	background-color: blue;
+	color: white
+}
+
+table#kalender td.has-tasks {
+	text-align: center;
+	background: #444;
+	color: white;
+}
+.button {
+	width: inherit;
+    height: inherit;
+    background-color: #777;
+    border: none;
+}
+background {
+text-align: center;
+}
+body{
+background-image: url("hintergrund.jpg");
+background-position: right top;
+}
+
+.top{
+	margin-top: 200px;
+}
+
+.cities {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.middletext{
+  background-color: white;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.item3 { grid-area: main; font-family: arial;}
+.item4 { grid-area: right; font-family: arial;}
+.item5 { grid-area: footer; color: red;font-family: arial;}
+
+.grid-container {
+	margin-top: 200px;
+  display: grid;
+  grid-template-areas:
+    'footer footer footer footer footer footer'
+	'main main main main right right';
+  grid-gap: 10px;
+  background-color: darkgreen;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: lightgreen;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 40px;
+}
+
+.ueberschrift{
+	text-align: center;
+	font-size: 100px;
+}
+
+p{
+	font-size: 30px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
